@@ -1,0 +1,80 @@
+.replica-announcement{height:44px;background:#181717;color:#fff7f0;display:flex;align-items:center;justify-content:center;gap:32px;font-family:'Share Tech Mono',monospace;font-size:14px;text-transform:uppercase;letter-spacing:1px}.replica-announcement b{font-weight:400}.replica-header{position:absolute;z-index:20;top:44px;left:0;width:100%;height:101px;border-bottom:1px solid #fff7f077;padding:0 40px;display:flex;align-items:center;justify-content:space-between;color:#fff7f0;background:transparent}.replica-brand{position:absolute;left:50%;transform:translateX(-50%);width:144px}.replica-brand img{width:100%;height:auto;display:block}.replica-header button{color:inherit;border:0;background:none;cursor:pointer;padding:0}.replica-header>nav{display:none}.replica-mobile-toggle{font-size:27px;line-height:1}.replica-header-right{display:flex;align-items:center;gap:30px}.replica-header-right a{color:inherit;text-decoration:none}.replica-rewards,.replica-divider{display:none}.replica-region{border:1px solid currentColor;border-radius:30px;font-size:0;padding:1px 11px}.replica-region::after{content:'⊕';font-size:22px}.replica-account svg{display:none}.replica-account::after{content:'LOGIN';font-size:16px;font-weight:500}.replica-bag{display:flex;align-items:center;gap:5px}.replica-bag span{display:none}.replica-mobile-menu{position:absolute;z-index:30;left:0;top:145px;background:#f2ebe4;color:#181717;width:380px;max-width:100%;padding:30px;display:grid;box-shadow:0 20px 30px #0002}.replica-mobile-menu a,.replica-mobile-menu button{background:none;border:0;border-bottom:1px solid #18171733;padding:18px 0;text-align:left;text-decoration:none;color:inherit;font-size:22px;cursor:pointer}.replica-rating{font-size:16px;letter-spacing:2px}.replica-rating small{font-size:12px;letter-spacing:0}.replica-overlay{position:fixed;inset:0;background:#0008;z-index:1000;display:flex;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(4px)}.replica-product-modal{background:#f2ebe4;color:#181717;width:1000px;max-width:100%;max-height:90dvh;overflow:auto;position:relative;display:grid;grid-template-columns:1fr 1fr}.replica-product-image{background:#e9e1d9;display:flex;align-items:center}.replica-product-image img{width:100%;height:auto}.replica-product-info{padding:60px 35px}.replica-product-info h2{font-size:52px;line-height:1.1;margin:20px 0}.replica-product-info p{margin:16px 0;line-height:1.5}.replica-product-info small{display:block;margin-top:20px;font-size:12px}.replica-mono{font-family:monospace;font-size:13px}.replica-product-info fieldset{border:0;padding:0;margin:25px 0}.replica-product-info legend{font-size:14px;margin-bottom:12px}.replica-product-info label{display:flex;align-items:center;gap:8px;border:1px solid #aaa;padding:16px 12px;cursor:pointer}.replica-product-info label:has(input:checked){border:1px solid #181717;background:#fff7f0}.replica-product-info label span{margin-left:auto;font-size:12px}.replica-product-info input{accent-color:#181717}.replica-close{position:absolute;top:15px;right:20px;z-index:4;font:32px/1 Arial;background:none;border:0;cursor:pointer;color:#181717;padding:6px}.replica-primary{background:#181717;color:#fff7f0;border:1px solid #181717;min-height:50px;padding:15px 22px;cursor:pointer;font-family:monospace;text-transform:uppercase}.replica-primary:hover{background:#444}.replica-purchase{display:flex;gap:10px}.replica-purchase>.replica-primary{flex:1;padding:12px}.replica-quantity{display:flex;align-items:center;border:1px solid #999;width:100px;justify-content:space-around;min-height:45px}.replica-quantity button{background:none;border:0;color:inherit;font-size:20px;cursor:pointer;padding:10px}.replica-quantity output{font-size:14px}.replica-bag-overlay{justify-content:flex-end;padding:0}.replica-bag-panel{height:100dvh;width:500px;max-width:100%;background:#f2ebe4;overflow:auto;position:relative;padding:0 28px 28px;color:#181717}.replica-bag-top{text-align:center;padding:14px;margin:0 -28px 30px;background:#181717;color:#fff7f0;font-size:13px}.replica-bag-panel>.replica-close{top:63px}.replica-bag-panel>h2{font-size:25px;padding-bottom:20px;border-bottom:1px solid #aaa}.replica-empty{padding:50px 0;text-align:center}.replica-empty h3{font-size:25px;margin-bottom:25px}.replica-cart-item{display:flex;gap:18px;padding:25px 0;border-bottom:1px solid #aaa}.replica-cart-item>img{width:110px;height:130px;object-fit:contain}.replica-cart-item>div{flex:1}.replica-cart-item h3{font-size:23px;margin:0}.replica-cart-item p{font-size:13px;margin:8px 0}.replica-cart-item>strong{font-size:14px}.replica-remove{border:0;background:none;text-decoration:underline;padding:5px 0;font-size:12px;cursor:pointer}.replica-cart-total{margin:25px 0}.replica-cart-total>p:first-child{display:flex;justify-content:space-between}.replica-cart-total small{font-size:12px}.replica-cart-total>.replica-primary{width:100%;margin-top:20px}.replica-recommendations{border-top:1px solid #aaa;padding-top:22px}.replica-recommendations>p{font:13px monospace}.replica-recommendations>button{display:flex;align-items:center;gap:15px;border:0;border-bottom:1px solid #ccc;background:none;text-align:left;width:100%;padding:15px 0;cursor:pointer}.replica-recommendations img{width:75px}.replica-recommendations span{font-size:20px}.replica-recommendations span:last-child{margin-left:auto}.replica-recommendations small{display:block;font-size:12px}.replica-newsletter{display:flex;width:100%;border-bottom:1px solid currentColor}.replica-newsletter input{border:0;background:transparent;color:inherit;outline:none;flex:1;padding:15px 0;min-width:0}.replica-newsletter input::placeholder{color:inherit}.replica-newsletter button{border:0;background:none;color:inherit;font-size:28px;padding:10px;cursor:pointer}.replica-skip{position:fixed;left:10px;top:-100px;background:#fff;color:#000;z-index:2000;padding:10px}.replica-skip:focus{top:10px}.replica-popup-open{display:block!important;z-index:100!important}.replica-playing video{object-fit:cover}.replica-playing [class*="play"]{display:none!important}.swiper-button-next::after,.swiper-button-prev::after{display:none}.swiper-button-next,.swiper-button-prev{cursor:pointer}.circle{border:1px solid currentColor;border-radius:50%}.replica-newsletter p{padding:15px 0}.sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0)}
+@media(max-width:749px){.replica-announcement{height:36px;font-size:10px;gap:12px;letter-spacing:0}.replica-announcement span:last-child,.replica-announcement b:last-of-type{display:none}.replica-header{top:36px;height:76px;padding:0 20px}.replica-brand{width:122px}.replica-header-right{gap:16px}.replica-region,.replica-account{display:none}.replica-mobile-menu{top:112px}.replica-product-modal{grid-template-columns:1fr;max-height:94dvh}.replica-product-image{max-height:240px;justify-content:center}.replica-product-image img{height:240px;width:auto}.replica-product-info{padding:25px}.replica-product-info h2{font-size:36px}.replica-overlay{padding:12px}.replica-bag-overlay{padding:0}.replica-bag-panel{padding-left:20px;padding-right:20px}.replica-cart-item>img{width:80px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+body{opacity:1!important} #root{width:100%} .replica-announcement{font-family:var(--font-ShareTechMono)}
+.replica-brand img{filter:brightness(0) invert(1)} .Index_top_banner_list_marquee>span{width:max-content;animation:replica-marquee 55s linear infinite}.Index_top_banner_list_block_innerloops_mainboxs_new{flex-shrink:0}.Index_top_banner_list_marquee:hover>span{animation-play-state:paused}@keyframes replica-marquee{to{transform:translateX(-33.333%)}}
+/* Scroll-triggered clinical results. Both the ring and value share one progress value. */
+.circle.replica-stat{border:0;border-radius:50%;background:none}
+.replica-stat>svg{display:block;width:100%;height:100%;overflow:visible;transform:rotate(-90deg)}
+.replica-stat svg circle{fill:none;stroke-width:20}
+.replica-ring-track{stroke:#2b2a2a}
+.replica-ring-progress{stroke:#fff7f0;stroke-linecap:butt}
+
+/* Newsletter offer uses the original two-column artwork and proportions. */
+.replica-signup-backdrop{position:fixed;inset:0;z-index:1100;display:flex;align-items:center;justify-content:center;padding:20px;background:#0006;animation:replica-offer-fade .25s ease}
+.replica-signup{position:relative;display:grid;grid-template-columns:1fr 1fr;width:780px;max-width:100%;height:598px;max-height:calc(100dvh - 40px);background:#fff7f0;color:#000;box-shadow:0 0 30px #0003;overflow:auto}
+.replica-signup-content{display:flex;flex-direction:column;justify-content:center;text-align:center;padding:40px;min-width:0}
+.replica-signup-content h2{font-family:var(--font-body--family);font-size:20px;line-height:1.2;letter-spacing:0;font-weight:400;text-transform:none;margin:0 0 38px}
+.replica-signup-content>p{font-size:16px;line-height:1.3;margin:0 0 24px}
+.replica-signup-content strong{font-weight:700}
+.replica-signup-content form{display:grid;gap:20px}
+.replica-signup-content input{background:transparent;border:0;border-bottom:1px solid #181717;border-radius:50px;height:46px;width:100%;padding:10px 16px;color:#181717;font:16px var(--font-ShareTechMono)}
+.replica-signup-content input::placeholder{color:#181717;opacity:1}
+.replica-signup-content input:focus-visible{outline:2px solid #181717;outline-offset:3px}
+.replica-signup-content button{border:0;border-radius:50px;background:#181717;color:#fff7f0;width:100%;min-height:54px;padding:14px;font:16px var(--font-ShareTechMono);cursor:pointer}
+.replica-signup-content button:hover{background:#363333}
+.replica-signup-content>small{display:block;font:10px Arial,sans-serif;margin-top:24px;color:#000}
+.replica-signup-content>small a{color:#0064cd;text-decoration:underline}
+.replica-signup-photo{width:100%;height:100%;object-fit:cover;min-height:0}
+.replica-signup-close{position:absolute;right:10px;top:10px;border:0;border-radius:50%;background:#181717;color:#fff;width:34px;height:34px;padding:6px;z-index:2;cursor:pointer}
+.replica-signup-close svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.5}
+.replica-signup-close:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.replica-signup-confirmation p{font-size:16px;line-height:1.4;margin-bottom:30px}
+@keyframes replica-offer-fade{from{opacity:0}to{opacity:1}}
+
+/* Expanded hamburger navigation. */
+.replica-header.replica-menu-is-open{position:fixed;background:#f2ebe4;color:#181717;border-bottom:0;z-index:61}
+.replica-menu-is-open .replica-brand img{filter:none}
+.replica-mega-menu{position:fixed;z-index:60;top:145px;bottom:0;left:0;width:100%;overflow-y:auto;display:grid;grid-template-columns:44% 50.5%;justify-content:space-between;align-items:start;gap:30px;padding:38px 40px 50px;background:#f2ebe4;color:#181717;overscroll-behavior:contain}
+.replica-mega-menu a{color:inherit;text-decoration:none}
+.replica-mega-menu h2{font-size:16px;font-weight:400;line-height:1.2;text-transform:uppercase;letter-spacing:0;margin:0}
+.replica-menu-shop{width:52%}
+.replica-menu-shop>h2{border-bottom:1px solid #181717;padding-bottom:12px;margin-bottom:28px}
+.replica-menu-products{display:flex;gap:24px}
+.replica-menu-products>button{border:0;background:none;text-align:left;padding:0;cursor:pointer;color:inherit;flex:1;min-width:0}
+.replica-menu-products img{display:block;width:120px;max-width:100%;aspect-ratio:1;object-fit:cover}
+.replica-menu-products small{display:block;white-space:nowrap;font:11px var(--font-ShareTechMono);margin:16px 0 12px}
+.replica-menu-products h3{font-size:16px;font-weight:400;letter-spacing:0;margin:0 0 8px;line-height:1.1}
+.replica-menu-products p{font:10px var(--font-ShareTechMono);margin:0;white-space:nowrap}
+.replica-menu-shop-all{display:inline-flex;justify-content:center;align-items:center;min-width:145px;padding:8px 24px;border:1px solid #181717;border-radius:30px;font:11px var(--font-ShareTechMono);margin-top:28px}
+.replica-menu-link-columns{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:46px}
+.replica-menu-link-columns h2{padding-bottom:12px;border-bottom:1px solid #181717;margin-bottom:20px}
+.replica-menu-link-columns a{display:block;font-size:16px;margin-top:14px;line-height:1.4}
+.replica-menu-link-columns a:hover{text-decoration:underline;text-underline-offset:4px}
+.replica-menu-rewards{position:relative;display:block;width:100%;aspect-ratio:1268/772;overflow:hidden}
+.replica-menu-rewards>img{width:100%;height:100%;object-fit:cover}
+.replica-menu-rewards>div{position:absolute;inset:0 auto 0 0;width:38%;display:flex;flex-direction:column;justify-content:center;padding:0 40px;color:#fff7f0;border-right:1px solid #fff7f0}
+.replica-menu-rewards h2{font-size:28px;font-weight:500;line-height:1.2;margin-bottom:24px}
+.replica-menu-rewards span{display:block;text-align:center;width:160px;max-width:100%;border:1px solid #fff7f0;border-radius:30px;padding:8px 12px;font:14px var(--font-ShareTechMono)}
+.replica-menu-rewards:hover span{background:#fff7f0;color:#181717}
+@media(min-width:1700px){.replica-menu-shop{width:52%}.replica-menu-products img{width:150px}}
+@media(max-width:1100px){.replica-menu-shop{width:75%}.replica-menu-rewards>div{padding:0 22px}.replica-menu-rewards h2{font-size:23px}.replica-mega-menu{grid-template-columns:47% 48%;padding-left:30px;padding-right:30px}.replica-menu-products{gap:20px}}
+@media(max-width:749px){
+ .replica-signup-backdrop{padding:18px}
+ .replica-signup{width:390px;grid-template-columns:1fr;height:auto;max-height:calc(100dvh - 36px)}
+ .replica-signup-content{padding:60px 32px 40px;min-height:420px}
+ .replica-signup-content h2{margin-bottom:30px}
+ .replica-signup-photo{display:none}
+ .replica-mega-menu{top:112px;display:block;padding:25px 24px 40px}
+ .replica-menu-shop{width:100%}
+ .replica-menu-products{gap:24px}
+ .replica-menu-products img{width:100%;max-width:150px}
+ .replica-menu-shop-all{margin-top:25px}
+ .replica-menu-link-columns{gap:24px;margin-top:36px}
+ .replica-menu-link-columns a{font-size:14px}
+ .replica-menu-rewards{margin-top:35px}
+ .replica-menu-rewards>div{padding:0 16px;width:44%}
+ .replica-menu-rewards h2{font-size:22px;margin-bottom:15px}
+ .replica-menu-rewards span{font-size:12px}
+}
+.replica-menu-rewards>div{backdrop-filter:blur(12px);background:#18171726}

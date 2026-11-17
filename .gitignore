@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+
+# Local visual verification output
+/*-preview.png
+/local-desktop.png
+/local-mobile.png

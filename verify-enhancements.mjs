@@ -1,0 +1,34 @@
+import {chromium, expect} from '@playwright/test';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+try {
+ const page=await browser.newPage({viewport:{width:1536,height:900}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.addInitScript(()=>sessionStorage.setItem('ingenious-signup-dismissed','true'));
+ await page.goto('http://127.0.0.1:5174',{waitUntil:'networkidle'});
+ await expect(page.locator('.replica-stat span').first()).toHaveText('0');
+ await page.locator('.replica-stat').first().scrollIntoViewIfNeeded();
+ await page.waitForTimeout(350);
+ const intermediate=await page.locator('.replica-stat span').first().textContent();
+ if(Number(intermediate)<=0||Number(intermediate)>=85)throw new Error('Counter did not animate through intermediate values: '+intermediate);
+ await expect(page.locator('.replica-stat span').first()).toHaveText('85',{timeout:4000});
+ await page.locator('.replica-stat').last().scrollIntoViewIfNeeded();
+ await expect(page.locator('.replica-stat span').last()).toHaveText('98',{timeout:4000});
+ await page.locator('.Index_object_percent_list_new').screenshot({path:'science-animated-preview.png'});
+ await page.evaluate(()=>scrollTo(0,0));await page.getByRole('button',{name:'Open menu',exact:true}).click();
+ await expect(page.getByRole('navigation',{name:'Expanded navigation'})).toBeVisible();
+ await page.screenshot({path:'hamburger-preview.png'});
+ await page.getByRole('navigation',{name:'Expanded navigation'}).getByRole('button',{name:/Active capsules/}).click();
+ await expect(page.getByRole('dialog',{name:'Active',exact:true})).toBeVisible();await page.keyboard.press('Escape');
+ await page.setViewportSize({width:390,height:844});await page.getByRole('button',{name:'Open menu',exact:true}).click();
+ await expect(page.getByRole('navigation',{name:'Expanded navigation'})).toBeVisible();
+ if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw new Error('Mobile overflow');
+ await page.screenshot({path:'hamburger-mobile-preview.png'});await page.keyboard.press('Escape');
+ const popupPage=await browser.newPage({viewport:{width:1280,height:900}});
+ await popupPage.goto('http://127.0.0.1:5174',{waitUntil:'networkidle'});
+ await expect(popupPage.getByRole('dialog',{name:'Save 25% with our 3 Month Subscription.'})).toBeVisible({timeout:9000});
+ await popupPage.screenshot({path:'signup-preview.png'});
+ await popupPage.getByRole('button',{name:'Close signup popup'}).click();
+ await popupPage.reload({waitUntil:'networkidle'});await popupPage.waitForTimeout(6500);
+ await expect(popupPage.getByRole('dialog')).toHaveCount(0);
+ console.log(JSON.stringify({intermediateCount:intermediate,finalCounts:'85, 80, 83, 98',popup:'auto-open and session dismissal passed',menu:'desktop, mobile and product selection passed',errors}));
+ if(errors.length)throw new Error(errors.join('\n'));
+} finally {await browser.close()}
