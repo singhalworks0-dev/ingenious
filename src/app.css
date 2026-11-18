@@ -88,3 +88,98 @@ body{opacity:1!important} #root{width:100%} .replica-announcement{font-family:va
 .swiper-button-prev svg {
   fill: none;
 }
+/* Shared layouts for local product, account and service pages. */
+.replica-header.replica-inner-header{position:relative;top:auto;background:#f2ebe4;color:#181717;border-bottom:1px solid #18171733}
+.replica-inner-header .replica-brand img{filter:none}
+.replica-header.replica-menu-is-open{position:fixed;top:44px}
+.demo-loading{min-height:65vh;display:grid;place-items:center;font:18px var(--font-ShareTechMono)}
+.demo-product-page{display:grid;grid-template-columns:1fr 1fr;max-width:1600px;margin:auto;border-bottom:1px solid #181717;background:#f2ebe4}
+.demo-product-gallery{padding:30px;background:#e8ded4;min-width:0}
+.demo-product-main-image{display:block;width:100%;aspect-ratio:1;object-fit:contain}
+.demo-product-thumbnails{display:flex;gap:12px;overflow-x:auto;padding:16px 0}
+.demo-product-thumbnails button{flex:0 0 70px;background:none;border:1px solid transparent;padding:0;cursor:pointer}
+.demo-product-thumbnails button[aria-pressed=true]{border-color:#181717}
+.demo-product-thumbnails img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.demo-product-purchase{padding:50px 40px}
+.demo-product-purchase h1{font-size:56px;margin:20px 0;letter-spacing:-1px;line-height:1.1}
+.demo-product-purchase>p{line-height:1.5;margin:20px 0}
+.demo-product-purchase fieldset{padding:0;border:0;margin:30px 0}
+.demo-product-purchase legend{font:14px var(--font-ShareTechMono);margin-bottom:16px}
+.demo-product-purchase label{display:flex;align-items:center;gap:12px;border:1px solid #aaa;padding:18px 15px;cursor:pointer;margin-bottom:12px}
+.demo-product-purchase label.is-selected{border:2px solid #181717;padding:17px 14px;background:#fff7f0}
+.demo-product-purchase label span{flex:1}
+.demo-product-purchase label strong{display:block;font-size:17px}
+.demo-product-purchase label small{display:block;font-size:12px;margin-top:7px}
+.demo-product-purchase input{accent-color:#181717}
+.demo-product-actions{display:flex;gap:12px}
+.demo-product-actions>.replica-primary{flex:1}
+.demo-product-assurance{font-size:13px}
+.demo-utility-page{min-height:65vh;background:#f2ebe4}
+.demo-form-card{width:580px;max-width:calc(100% - 40px);margin:0 auto;padding:70px 0;color:#181717}
+.demo-form-card h1{font-size:42px;line-height:1.15;margin-bottom:20px}
+.demo-form-card>p{font-size:17px;line-height:1.5;margin-bottom:30px}
+.demo-form-card form{display:grid;gap:20px;margin:30px 0}
+.demo-form-card label{display:grid;gap:9px;font-size:14px}
+.demo-form-card input,.demo-form-card textarea{border:1px solid #18171766;background:#fff7f0;color:#181717;padding:14px;width:100%;font:16px var(--font-body--family);border-radius:0}
+.demo-form-card>a{text-decoration:underline;text-underline-offset:4px}
+.demo-form-status{padding:18px;border:1px solid #aaa;font-size:15px!important}
+.demo-rewards-hero{display:grid;grid-template-columns:1fr 1fr;align-items:center}
+.demo-rewards-hero>div{padding:70px 60px}
+.demo-rewards-hero h1{font-size:64px;line-height:1.05;margin:30px 0}
+.demo-rewards-hero p{margin:24px 0;font-size:18px;line-height:1.4}
+.demo-rewards-hero img{width:100%;height:100%;object-fit:cover;min-height:450px}
+.demo-rewards-hero .replica-primary{display:inline-block;margin:10px 0}
+.demo-text-button{display:block;border:0;background:none;color:inherit;text-decoration:underline;text-underline-offset:4px;cursor:pointer;margin:20px auto;font-size:15px}
+.demo-rewards-hero .demo-text-button{margin-left:0}
+.demo-rewards-explainer{padding:65px 30px;text-align:center;border-top:1px solid #181717}
+.demo-rewards-explainer h2{font-size:34px;margin-bottom:25px}
+.demo-rewards-explainer p{margin:20px auto;max-width:600px}
+.demo-shop-title{font-size:50px;padding:50px 40px 20px;text-align:center}
+.demo-shop-grid{display:grid;grid-template-columns:1fr 1fr;max-width:1200px;margin:auto;gap:50px;padding:25px 40px 80px}
+.demo-shop-grid article{text-align:center}
+.demo-shop-grid article>a{color:inherit;text-decoration:none}
+.demo-shop-grid img{max-height:380px;width:100%;object-fit:contain}
+.demo-shop-grid h2{font-size:38px;margin:15px 0}
+.demo-shop-grid p{line-height:1.5;margin:20px 0 30px}
+.demo-shop-grid .replica-primary{display:inline-block;color:#fff7f0}
+.demo-quiz{padding:70px 25px;text-align:center;max-width:850px;margin:auto;min-height:500px}
+.demo-quiz h2{font-size:42px;line-height:1.15;margin:20px 0 35px}
+.demo-quiz h3{font-size:26px;margin:25px 0}
+.demo-quiz p{line-height:1.5;margin:25px auto;max-width:580px}
+.demo-quiz>.replica-primary{display:inline-block;margin-top:20px;text-decoration:none}
+.demo-quiz-options{display:grid;gap:12px;max-width:420px;margin:auto}
+.demo-quiz-options button{border:1px solid #18171766;background:none;color:#181717;padding:16px;cursor:pointer;font-size:16px}
+.demo-quiz-options button.is-selected{background:#181717;color:#fff7f0}
+.demo-quiz input{padding:15px;border:1px solid #aaa;background:#fff7f0;color:#181717;font-size:18px;display:block;width:250px;margin:30px auto}
+.demo-quiz-progress{height:3px;background:#ccc;max-width:500px;margin:30px auto}
+.demo-quiz-progress span{height:100%;display:block;background:#181717;transition:width .3s ease}
+.demo-quiz-result{width:250px;max-width:80%;margin:auto}
+.demo-quiz button:disabled{opacity:.4;cursor:not-allowed}
+/* Policy content and native custom elements render without Shopify's runtime. */
+.shopify-policy__container{max-width:900px;margin:auto;padding:60px 25px}
+@media(max-width:749px){
+ .replica-header.replica-menu-is-open{top:36px}
+ .demo-product-page{grid-template-columns:1fr}
+ .demo-product-gallery{padding:20px}
+ .demo-product-purchase{padding:35px 24px}
+ .demo-product-purchase h1{font-size:42px}
+ .demo-product-purchase label{padding:15px 10px}
+ .demo-product-purchase label.is-selected{padding:14px 9px}
+ .demo-product-purchase label strong{font-size:15px}
+ .demo-product-purchase label small{font-size:11px}
+ .demo-product-actions{gap:8px}
+ .demo-product-actions>.replica-primary{font-size:12px;padding:12px}
+ .demo-form-card{padding:45px 0}
+ .demo-form-card h1{font-size:34px}
+ .demo-rewards-hero{grid-template-columns:1fr}
+ .demo-rewards-hero>div{padding:50px 25px}
+ .demo-rewards-hero h1{font-size:46px}
+ .demo-rewards-hero img{min-height:0;max-height:400px}
+ .demo-shop-title{font-size:38px}
+ .demo-shop-grid{grid-template-columns:1fr;padding:20px 25px 50px}
+ .demo-quiz h2{font-size:32px}
+ .demo-quiz{padding:50px 24px}
+}
+
+/* Reference cross-document transitions depend on Shopify's page runtime. */
+@view-transition { navigation: none; }

@@ -1,0 +1,89 @@
+.contact-lets-talk-section .Index_object_percent_list_sides_mainright_new{background:#FFF7F0;border-left: 1px solid #181717;}
+.contact-lets-talk-section .Index_object_percent_list_sides_innerright_mainboxs_new {width: 100%;}
+.contact-lets-talk-section .contact-form__form{min-width:640px;    gap: 40px;}
+.contact-lets-talk-section .contact-form__input{padding: 13px 0;border:none;text-transform: uppercase;border-bottom: 2px solid #181717;font-size: 16px;font-style: normal;font-weight: 500;line-height: 130%;}
+.contact-lets-talk-section .contact-form__input::placeholder{text-transform: uppercase;font-size: 16px;font-style: normal;font-weight: 500;line-height: 130%;}
+.contact-lets-talk-section .contact-form__input:focus-visible,.contact-lets-talk-section .contact-form__input:focus-visible{outline:none!important;}
+.contact-lets-talk-section .contact-form__input--textarea{max-height: 120px;padding-top: 0px;}
+.contact-lets-talk-section .Index_object_percent_list_sides_innerright_mainboxs_new{padding:70px 31px;}
+.contact-lets-talk-section .button.submit-button{max-width:210px;height:36px;padding: 3px 0 0;}
+.contact-lets-talk-section .Index_object_percent_list_sides_innerleft_innerboths_maininfos_new{max-width: 374px;}
+.contact-lets-talk-section .Index_object_percent_list_sides_innerleft_innerboths_innerinfos_new p{font-size: 22px;line-height: 127.273%;}
+
+/* contact helpful links */
+.contact-helpful-links-sec{background: #fff7f0;}
+.contact-helpful-links-sec .Index_object_percent_list_sides_innerright_innerboxs_new {align-items: flex-start;gap:70px;}
+.contact-helpful-links-sec .Index_object_percent_list_sides_innerright_mainboxs_new {padding: 70px 31px 70px 78px;}
+.contact-helpful-links-sec .contact-helpful-links-block{display:flex;flex-direction: column;gap: 18px;position:relative;}
+.contact-helpful-links-sec .Index_object_percent_list_sides_new{align-items: flex-start;}
+.contact-helpful-links-sec .contact-helpful-links-description p{font-size: 18px;font-style: normal;font-weight: 400;line-height: 125%;max-width: 420px;}
+.contact-helpful-links-sec .contact-helpful-links-btn-link a{font-family: var(--font-ShareTechMono);text-decoration: underline;font-size: 16px;font-style: normal;font-weight: 400;line-height: 114.286%; text-transform: uppercase;}
+.contact-helpful-links-sec .contact-helpful-links-block:before{content:'';position:absolute;width:14px;height:14px;border-radius: 100%;background:#181717;left:-85px;top:11px;}
+
+/* wellness page css */
+.wellness-revolutions.contact-lets-talk-section .Index_object_percent_list_sides_mainright_new {background: #F2EBE4;}
+.wellness-revolutions.contact-helpful-links-sec .contact-helpful-links-description p{max-width: 795px;}
+.wellness-revolutions .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new h2{font-size: 44px;line-height: 113.636%;}
+.wellness-revolutions .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new{
+  h1,h2,h3,h4,h5,h6,p,span{
+    font-size: 44px;line-height: 113.636%;
+  }
+}
+.wellness-revolutions.contact-helpful-links-sec .contact-helpful-links-description p{font-size: 18px;line-height: 130%;}
+.wellness-revolutions.contact-helpful-links-sec .Index_object_percent_list_sides_innerright_innerboxs_new{gap: 50px;}
+.wellness-revolutions.contact-lets-talk-section .Index_object_percent_list_sides_innerleft_innerboths_innerinfos_new p{font-size: 18px;line-height: 133.333%;max-width: 357px;}
+@media(min-width:750px){
+  .contact-lets-talk-section .Index_object_percent_list_sides_mainleft_new{padding: 0px 40px 0px;}
+  .contact-lets-talk-section.contact-helpful-links-sec .Index_object_percent_list_sides_mainleft_new{padding: 80px 40px 40px;}
+  .wellness-revolutions.contact-lets-talk-section .Index_object_percent_list_sides_mainleft_new {padding: 70px 40px 40px;}
+    
+}
+@media(max-width:1399px) and (min-width:1200px){
+  .wellness-revolutions .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new h2 {font-size: 34px;}
+  .wellness-revolutions .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new{
+    h1,h2,h3,h4,h5,h6,p,span{
+      font-size: 34px;
+    }
+  }
+}
+@media(max-width:1200px){
+  .contact-lets-talk-section .contact-form__form {min-width: 100%;}
+  .wellness-revolutions .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new h2{font-size: 20px;}
+  .wellness-revolutions .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new{
+    h1,h2,h3,h4,h5,h6,p,span{
+      font-size: 20px;
+    }
+  }
+}
+@media(max-width:749px){
+  .contact-lets-talk-section .Index_object_percent_list_sides_mainright_new{border-left:none;}
+  .contact-lets-talk-section .Index_object_percent_list_sides_mainleft_new {padding: 56px 24px;}
+  .contact-lets-talk-section .Index_object_percent_list_sides_innerleft_innerboths_innerinfos_new p{font-size: 18px;line-height: 144.444%;max-width:307px;}
+  .contact-lets-talk-section .Index_object_percent_list_sides_innerright_mainboxs_new {padding: 56px 24px;}
+  .contact-lets-talk-section .button.submit-button{width: 100%;max-width: 150px;margin: auto;}
+  .contact-lets-talk-section .contact-form__form{gap: 32px;}
+  .contact-lets-talk-section .contact-form__input{font-size: 14px;line-height: 130%;}
+
+  /*  */
+  .contact-helpful-links-sec .Index_object_percent_list_sides_mainleft_new {padding: 56px 24px 0;}
+  .contact-helpful-links-sec .Index_object_percent_list_sides_innerright_mainboxs_new {padding: 0px 24px 60px;}
+  .contact-helpful-links-sec .Index_object_percent_list_sides_mainright_new{margin-left: 25px;border-left: 1px solid #181717;width: auto;margin-top: 52px;}
+  .contact-helpful-links-sec .Index_object_percent_list_sides_innerright_innerboxs_new{gap:50px;}
+  .contact-helpful-links-sec .contact-helpful-links-block{gap:20px;}
+  .contact-helpful-links-sec .contact-helpful-links-block:before{left: -31px;top: 7px;}
+  .contact-helpful-links-sec .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new h2 br{display:none;}
+  .contact-helpful-links-sec .Index_object_percent_list_sides_innerright_innerboxs_new .contact-helpful-links-block:first-child{margin-top:-20px;}
+
+  /*  */
+  .wellness-revolutions .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new h2 {font-size: 32px;line-height: 118.75%;}
+  .wellness-revolutions .Index_object_percent_list_sides_innerleft_innerboths_innertitle_new{
+    h1,h2,h3,h4,h5,h6,p,span{
+      font-size: 32px;line-height: 118.75%;
+    }
+  }
+  .wellness-revolutions.contact-lets-talk-section .Index_object_percent_list_sides_innerleft_innerboths_innerinfos_new p{font-size: 16px;line-height: 137.5%;max-width: 357px;}
+  .wellness-revolutions.contact-helpful-links-sec .contact-helpful-links-description p{font-size: 16px;line-height: 137.5%;}
+  .wellness-revolutions.contact-helpful-links-sec .contact-helpful-links-block {gap: 16px;}
+  
+  .mobile_border_top_lets_talk  .Index_object_percent_list_sides_mainleft_new{border-bottom:1px solid #181717;}
+}

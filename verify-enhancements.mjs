@@ -17,7 +17,7 @@ try {
  await expect(page.getByRole('navigation',{name:'Expanded navigation'})).toBeVisible();
  await page.screenshot({path:'hamburger-preview.png'});
  await page.getByRole('navigation',{name:'Expanded navigation'}).getByRole('button',{name:/Active capsules/}).click();
- await expect(page.getByRole('dialog',{name:'Active',exact:true})).toBeVisible();await page.keyboard.press('Escape');
+ await expect(page).toHaveURL(/\/products\/ingenious-active$/);await page.locator('.demo-product-page').waitFor();
  await page.setViewportSize({width:390,height:844});await page.getByRole('button',{name:'Open menu',exact:true}).click();
  await expect(page.getByRole('navigation',{name:'Expanded navigation'})).toBeVisible();
  if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw new Error('Mobile overflow');

@@ -56,7 +56,7 @@ export function SignupPopup({onClose}) {
           <label className="sr-only" htmlFor="popup-email">Email</label><input id="popup-email" type="email" placeholder="Email" autoComplete="email" required/>
           <button type="submit">SIGN UP</button>
         </form>
-        <small>You can view our <a href="https://ingeniouslife.com/policies/privacy-policy" target="_blank" rel="noreferrer">Privacy Policy</a></small>
+        <small>You can view our <a href="/policies/privacy-policy" rel="noreferrer">Privacy Policy</a></small>
       </>}</div>
       <img className="replica-signup-photo" src="/assets/signup-products.jpeg" alt="Ingenious Collagen+ and Active supplements on a glass shelf"/>
     </section>
@@ -64,10 +64,10 @@ export function SignupPopup({onClose}) {
 }
 
 export function MegaMenu({products, onProduct, onClose}) {
-  const links = [['COLLAGEN CALCULATOR','/pages/collagen-calculator'],['OUR STORY','/pages/about-us'],['INGREDIENTS','#ingredients'],['CLINICAL TRIAL','/pages/clinical-trial'],['FAQs','/pages/faqs'],['BLOG','/blogs/news']];
+  const links = [['COLLAGEN CALCULATOR','/pages/collagen-calculator'],['OUR STORY','/pages/about-us'],['INGREDIENTS','/pages/ingredients'],['CLINICAL TRIAL','/pages/clinical-trial'],['FAQs','/pages/faqs'],['BLOG','/blogs/news']];
   return <nav className="replica-mega-menu" id="replica-navigation" aria-label="Expanded navigation">
-    <div className="replica-mega-links"><div className="replica-menu-shop"><h2>SHOP</h2><div className="replica-menu-products">{[products[1],products[0]].map((product,i)=><button key={product.slug} onClick={()=>onProduct(product)}><img src={i===0?'/assets/menu-active.jpg':'/assets/menu-collagen.jpg'} alt={product.name+' capsules'}/><small>★ {i===0?'4.6 61 Reviews':'4.7 596 Reviews'}</small><h3>{product.name.toUpperCase()}</h3><p>{i===0?'For recovery + endurance':'For skin, hair, nails'}</p></button>)}</div><a className="replica-menu-shop-all" href="#shop" onClick={onClose}>SHOP ALL</a></div>
-    <div className="replica-menu-link-columns"><div><h2>LEARN</h2>{links.map(([label,url])=><a key={label} href={url.startsWith('#')?url:'https://ingeniouslife.com'+url} onClick={onClose}>{label}</a>)}</div><div><h2>ACCOUNT</h2><a href="https://ingeniouslife.com/a/account/login">LOG IN</a><a href="https://ingeniouslife.com/a/account/login">CREATE ACCOUNT</a><a href="https://ingeniouslife.com/pages/track-delivery">TRACK MY ORDER</a></div></div></div>
-    <a className="replica-menu-rewards" href="https://ingeniouslife.com/pages/rewards"><img src="/assets/menu-rewards.png" alt="Woman holding flowers"/><div><h2>INGENIOUS<br/>REWARDS</h2><span>LEARN MORE</span></div></a>
+    <div className="replica-mega-links"><div className="replica-menu-shop"><h2>SHOP</h2><div className="replica-menu-products">{[products[1],products[0]].map((product,i)=><button key={product.slug} onClick={()=>onProduct(product)}><img src={i===0?'/assets/menu-active.jpg':'/assets/menu-collagen.jpg'} alt={product.name+' capsules'}/><small>★ {i===0?'4.6 61 Reviews':'4.7 596 Reviews'}</small><h3>{product.name.toUpperCase()}</h3><p>{i===0?'For recovery + endurance':'For skin, hair, nails'}</p></button>)}</div><a className="replica-menu-shop-all" href="/collections/all" onClick={onClose}>SHOP ALL</a></div>
+    <div className="replica-menu-link-columns"><div><h2>LEARN</h2>{links.map(([label,url])=><a key={label} href={url} onClick={onClose}>{label}</a>)}</div><div><h2>ACCOUNT</h2><a href="/a/account/login">LOG IN</a><a href="/a/account/register">CREATE ACCOUNT</a><a href="/pages/track-delivery">TRACK MY ORDER</a></div></div></div>
+    <a className="replica-menu-rewards" href="/pages/rewards"><img src="/assets/menu-rewards.png" alt="Woman holding flowers"/><div><h2>INGENIOUS<br/>REWARDS</h2><span>LEARN MORE</span></div></a>
   </nav>;
 }

@@ -1,0 +1,406 @@
+{
+  "/pages/about-us": {
+    "file": "edf9a98410cf.json",
+    "title": "Ingenious Collagen | Our Story, Science & Approach to Wellness"
+  },
+  "/pages/clinical-trial": {
+    "file": "d50cdf090a7e.json",
+    "title": "Collagen+ Clinical Trial & Scientific Research | Ingenious"
+  },
+  "/pages/collagen-calculator": {
+    "file": "cb5df2cc8d15.json",
+    "title": "Collagen Calculator | Find Your Best Match | Ingenious"
+  },
+  "/pages/contact": {
+    "file": "9fa1152766db.json",
+    "title": "Contact Us\n | INGENIOUS"
+  },
+  "/pages/faqs": {
+    "file": "061a7640f0c3.json",
+    "title": "FAQs\n | INGENIOUS"
+  },
+  "/pages/giveaway-t-cs": {
+    "file": "d8a622ff1725.json",
+    "title": "Giveaway T&Cs\n | INGENIOUS"
+  },
+  "/pages/ingredients": {
+    "file": "564355d3d54f.json",
+    "title": "Collagen Supplement Ingredients | What’s Inside Ingenious"
+  },
+  "/pages/rewards": {
+    "file": "7726a7639c89.json",
+    "title": "Ingenious Rewards | Earn Points on Collagen Products"
+  },
+  "/pages/sustainability": {
+    "file": "f08571b05cf5.json",
+    "title": "Sustainable Collagen & Responsible Sourcing | Ingenious"
+  },
+  "/pages/track-delivery": {
+    "file": "dfbb88ae86ef.json",
+    "title": "Track Delivery\n | INGENIOUS"
+  },
+  "/policies/privacy-policy": {
+    "file": "1c7574a13740.json",
+    "title": "Privacy policy\n | INGENIOUS"
+  },
+  "/policies/terms-of-service": {
+    "file": "83da4e2b9e8a.json",
+    "title": "Terms of service\n | INGENIOUS"
+  },
+  "/policies/shipping-policy": {
+    "file": "9a340bcd632d.json",
+    "title": "Shipping policy\n | INGENIOUS"
+  },
+  "/policies/refund-policy": {
+    "file": "2b9c25fd099d.json",
+    "title": "Refund policy\n | INGENIOUS"
+  },
+  "/products/ingenious-active": {
+    "file": "4f24f8a6f390.json",
+    "title": "Collagen for Muscle Recovery & Active Lifestyles | Ingenious"
+  },
+  "/products/ingenious-collagen": {
+    "file": "4fb09c102b45.json",
+    "title": "Marine Collagen Supplements for Skin, Hair & Nails | Ingenious"
+  },
+  "/collections/all": {
+    "file": "3db4781b5f4d.json",
+    "title": "Products\n | INGENIOUS"
+  },
+  "/blogs/blog": {
+    "file": "a3a00003d503.json",
+    "title": "Blog\n | INGENIOUS"
+  },
+  "/blogs/blog/amazing-astaxanthin": {
+    "file": "8433e55c97b2.json",
+    "title": "Amazing Astaxanthin\n | INGENIOUS"
+  },
+  "/blogs/blog/astaxanthin-and-healthy-vision": {
+    "file": "40a1ffd2637f.json",
+    "title": "Astaxanthin and healthy vision\n | INGENIOUS"
+  },
+  "/blogs/blog?page=2": {
+    "file": "d3ba0462fb93.json",
+    "title": "Blog\n – Page 2 | INGENIOUS"
+  },
+  "/blogs/blog?page=3": {
+    "file": "d6704f9a02ee.json",
+    "title": "Blog\n – Page 3 | INGENIOUS"
+  },
+  "/blogs/blog?page=4": {
+    "file": "25ce391f63e0.json",
+    "title": "Blog\n – Page 4 | INGENIOUS"
+  },
+  "/blogs/blog?page=5": {
+    "file": "4c05f881eb98.json",
+    "title": "Blog\n – Page 5 | INGENIOUS"
+  },
+  "/blogs/blog?page=6": {
+    "file": "03b2ef2bb894.json",
+    "title": "Blog\n – Page 6 | INGENIOUS"
+  },
+  "/blogs/blog?page=7": {
+    "file": "78f2405ff365.json",
+    "title": "Blog\n – Page 7 | INGENIOUS"
+  },
+  "/blogs/blog?page=8": {
+    "file": "b791060173c5.json",
+    "title": "Blog\n – Page 8 | INGENIOUS"
+  },
+  "/blogs/blog/keep-your-brain-sharp-with-astaxanthin": {
+    "file": "c2949922c05e.json",
+    "title": "Keep Your Brain Sharp with Astaxanthin\n | INGENIOUS"
+  },
+  "/blogs/blog/hyaluronic-acid-or-hyaluron-complex": {
+    "file": "93a5636eb5b2.json",
+    "title": "Hyaluronic Acid or Hyaluronan Complex?\n | INGENIOUS"
+  },
+  "/blogs/blog/5-hygge-tips-to-help-you-through-a-winter-lockdown": {
+    "file": "3d8d3a3f2ece.json",
+    "title": "5 hygge tips to help you through a winter lockdown\n | INGENIOUS"
+  },
+  "/blogs/blog/8-proven-ways-to-stay-healthy-this-autumn": {
+    "file": "763e93ce8e69.json",
+    "title": "8 proven ways to stay healthy this winter\n | INGENIOUS"
+  },
+  "/blogs/blog/an-ingenious-innovation": {
+    "file": "e4d9fba8e69a.json",
+    "title": "An Ingenious Collagen Innovation | INGENIOUS"
+  },
+  "/blogs/blog/astaxanthin-and-salmon": {
+    "file": "736952cfda6f.json",
+    "title": "Astaxanthin and Salmon\n | INGENIOUS"
+  },
+  "/blogs/blog/astaxanthin-sun-protection": {
+    "file": "863508c719a1.json",
+    "title": "Astaxanthin: The Sun Protection Supplement\n | INGENIOUS"
+  },
+  "/blogs/blog/astaxanthin-the-amazing-antioxidant-helping-to-prevent-ill-health": {
+    "file": "b2528775ade3.json",
+    "title": "Astaxanthin Antioxidant Benefits for Healthy Ageing\n | INGENIOUS"
+  },
+  "/blogs/blog/body-transformation-coach-juggy-sidhu-why-i-take-ingenious-active": {
+    "file": "73222dadf638.json",
+    "title": "Why Juggy Sidhu Takes Ingenious Active for Recovery"
+  },
+  "/blogs/blog/bovine-porcine-or-marine-which-collagen-is-best": {
+    "file": "bc5a826e93ed.json",
+    "title": "Bovine, Porcine or Marine - Which Collagen is Best\n | INGENIOUS"
+  },
+  "/blogs/blog/building-a-wellness-routine-that-works-as-hard-as-you-do": {
+    "file": "5f39dd6ee86c.json",
+    "title": "How to Build a Wellness Routine That Works for You\n | INGENIOUS"
+  },
+  "/blogs/blog/calculating-your-collagen-levels": {
+    "file": "5c903c8b77ec.json",
+    "title": "Calculating your collagen levels\n | INGENIOUS"
+  },
+  "/blogs/blog/can-i-take-collagen-while-pregnant-or-breastfeeding": {
+    "file": "0ea1816c16a7.json",
+    "title": "Collagen in Pregnancy and Breastfeeding: Is It Safe?\n | INGENIOUS"
+  },
+  "/blogs/blog/can-taking-collagen-help-you-sleep-better": {
+    "file": "7e572ed01181.json",
+    "title": "Can Taking Collagen Help You Sleep Better? \n | INGENIOUS"
+  },
+  "/blogs/blog/can-you-really-trust-clinically-proven": {
+    "file": "16d73daf4b41.json",
+    "title": "Can You Really Trust “Clinically Proven”?\n | INGENIOUS"
+  },
+  "/blogs/blog/care-for-him-the-ingenious-way-supporting-the-men-you-love-with-collagen": {
+    "file": "e2d6b9a17e03.json",
+    "title": "Care for Him, the Ingenious Way: Supporting the Men You Love with Coll"
+  },
+  "/blogs/blog/caroline-idiens-pupinder-ghatora-ig-live-collagen-q-a": {
+    "file": "ee65a204cb36.json",
+    "title": "Collagen Q&A with Caroline I. and Pupinder G.\n | INGENIOUS"
+  },
+  "/blogs/blog/choosing-the-right-collagen-supplement-a-five-point-check-list": {
+    "file": "483da0a44c76.json",
+    "title": "How to Choose the Right Collagen Supplement for You\n | INGENIOUS"
+  },
+  "/blogs/blog/clinical-trial-the-details": {
+    "file": "0b59a4c35090.json",
+    "title": "Clinical Trial: The Details\n | INGENIOUS"
+  },
+  "/blogs/blog/clinically-proven-collagen-supplement": {
+    "file": "87652645185d.json",
+    "title": "Clinically Proven Collagen Supplements Explained\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-and-exercise": {
+    "file": "619393da0a34.json",
+    "title": "Collagen and Exercise\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-and-mens-health-more-than-just-a-beauty-supplement": {
+    "file": "f1ae6b1482d6.json",
+    "title": "Collagen and Men's Health Beyond Beauty Benefits\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-destroyers": {
+    "file": "17a1178bd637.json",
+    "title": "Collagen Destroyers\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-for-joint-health": {
+    "file": "f0494b680573.json",
+    "title": "Collagen for Joint Health\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-for-menopause-the-complete-guide": {
+    "file": "004160e19921.json",
+    "title": "Collagen for Menopause: The Complete Wellness Guide\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-for-muscle-recovery": {
+    "file": "5ad581604b5e.json",
+    "title": "Collagen for Muscle Recovery\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-gender-and-the-menopause": {
+    "file": "a2023879257e.json",
+    "title": "Collagen, Gender, and the Menopause\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-in-coffee-why-heat-could-be-undermining-your-supplement": {
+    "file": "688e31bc4444.json",
+    "title": "Collagen in Coffee: Does Heat Affect Supplements?\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-myths-separating-fact-from-fiction": {
+    "file": "bb83439417a6.json",
+    "title": "Collagen Myths: Separating Fact from Fiction\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-powder-liquids-or-capsules-which-one-is-best": {
+    "file": "01481592902a.json",
+    "title": "Collagen Powder vs Liquid vs Capsules: Which Is Best?\n | INGENIOUS"
+  },
+  "/blogs/blog/collagen-supplements-the-8-key-benefits": {
+    "file": "162b4984b10b.json",
+    "title": "The 8 Key Benefits of Taking a Collagen Supplement\n | INGENIOUS"
+  },
+  "/blogs/blog/debunk-the-top-collagen-myths": {
+    "file": "8a3b8e8c85cb.json",
+    "title": "Debunk the Top Collagen Myths \n | INGENIOUS"
+  },
+  "/blogs/blog/does-eating-collagen-rich-food-actually-help-your-body-produce-more-collagen": {
+    "file": "c87dcad191b9.json",
+    "title": "Do Collagen-Rich Foods Help Collagen Production?\n | INGENIOUS"
+  },
+  "/blogs/blog/enteric-capsule-ingenious-difference": {
+    "file": "97017bfec7ee.json",
+    "title": "Enteric Capsule - The Ingenious Difference? | INGENIOUS"
+  },
+  "/blogs/blog/essential-collagen-benefits-for-men": {
+    "file": "e020e2e4a06b.json",
+    "title": "Collagen Benefits for Men: Health, Joints and Skin\n | INGENIOUS"
+  },
+  "/blogs/blog/five-minutes-with-pupinder-ghatora-co-founder-of-ingenious": {
+    "file": "b128443bbbb4.json",
+    "title": "Meet Pupinder Ghatora, Co-Founder of Ingenious Life"
+  },
+  "/blogs/blog/from-profession-to-passion-pupinders-story": {
+    "file": "204e9c580d45.json",
+    "title": "Pupinder Ghatora: From Profession to Passion Story\n | INGENIOUS"
+  },
+  "/blogs/blog/get-to-the-root-of-healthy-hair": {
+    "file": "e368c31eca07.json",
+    "title": "Get to the Root of Healthy Hair\n | INGENIOUS"
+  },
+  "/blogs/blog/hair-loss": {
+    "file": "9a73978b4fe2.json",
+    "title": "Hair Loss\n | INGENIOUS"
+  },
+  "/blogs/blog/how-do-collagen-supplements-work": {
+    "file": "e449692c976e.json",
+    "title": "How Do Collagen Supplements Work?\n | INGENIOUS"
+  },
+  "/blogs/blog/hyaluronic-acid-and-skin": {
+    "file": "05d3d09475b2.json",
+    "title": "Hyaluronic Acid and Skin\n | INGENIOUS"
+  },
+  "/blogs/blog/ingenious-collagen-featured-on-the-postcards-from-midlife-podcast": {
+    "file": "c012ede9b3ec.json",
+    "title": "Ingenious Collagen on Postcards from Midlife Podcast"
+  },
+  "/blogs/blog/ingenious-summer-travel-story": {
+    "file": "a8c94f427e5c.json",
+    "title": "INGENIOUS Summer Travel Story \n | INGENIOUS"
+  },
+  "/blogs/blog/joanne-clifton-on-life-lockdown": {
+    "file": "cfbf244f5996.json",
+    "title": "Joanne Clifton: on Life & Lockdown\n | INGENIOUS"
+  },
+  "/blogs/blog/nailed-it": {
+    "file": "2795fcb450d1.json",
+    "title": "Nailed it!\n | INGENIOUS"
+  },
+  "/blogs/blog/our-journey-to-b-corp-certification-building-a-sustainable-supplement-brand": {
+    "file": "bcdc63e61f30.json",
+    "title": "Our B Corp Certification and Sustainability Journey\n | INGENIOUS"
+  },
+  "/blogs/blog/revolutionising-wellness-ingenious-for-you-and-the-planet": {
+    "file": "413714faf400.json",
+    "title": "Sustainable Wellness for You and the Planet Today\n | INGENIOUS"
+  },
+  "/blogs/blog/skin": {
+    "file": "6c9886d5d175.json",
+    "title": "Skin\n | INGENIOUS"
+  },
+  "/blogs/blog/taking-collagen-effectively": {
+    "file": "19bbbb6bc61e.json",
+    "title": "How to take Collagen Effectively\n | INGENIOUS"
+  },
+  "/blogs/blog/ten-tips-towards-younger-looking-skin": {
+    "file": "dc8a4cd7f115.json",
+    "title": "Ten Tips towards Younger Looking Skin\n | INGENIOUS"
+  },
+  "/blogs/blog/the-3-golden-rules-of-collagen": {
+    "file": "762a1b299fd4.json",
+    "title": "The 3 Golden Rules of Collagen\n | INGENIOUS"
+  },
+  "/blogs/blog/the-amazing-history-of-collagen": {
+    "file": "5f4db65f6d4b.json",
+    "title": "The Amazing History of Collagen\n | INGENIOUS"
+  },
+  "/blogs/blog/the-ingenious-hyaluronan": {
+    "file": "531dc2be1700.json",
+    "title": "Hyaluronan: What Is Hyaluronic Acid | INGENIOUS\n | INGENIOUS"
+  },
+  "/blogs/blog/the-ingenious-journey": {
+    "file": "9eb78e373ec9.json",
+    "title": "The Ingenious Journey: Science Behind Collagen+ | INGENIOUS"
+  },
+  "/blogs/blog/the-science-myths-and-truth-about-collagen-pupinder-on-the-raise-podcast": {
+    "file": "b03de4329aa7.json",
+    "title": "Collagen Science, Myths and Truths: What to Know\n | INGENIOUS"
+  },
+  "/blogs/blog/the-wellness-verdict-why-collagen-should-be-part-of-your-routine": {
+    "file": "c2799b5c90ea.json",
+    "title": "Why Collagen Belongs in Your Daily Wellness Routine\n | INGENIOUS"
+  },
+  "/blogs/blog/trinny-talks-collagen": {
+    "file": "8be276d619a9.json",
+    "title": "Trinny Talks Collagen, Ageing and Everyday Wellbeing\n | INGENIOUS"
+  },
+  "/blogs/blog/understanding-the-battle-antioxidants-and-ageing": {
+    "file": "9112b0f3d99b.json",
+    "title": "Understanding the Battle: Antioxidants and ageing\n | INGENIOUS"
+  },
+  "/blogs/blog/what-is-collagen-banking-and-how-does-it-work": {
+    "file": "98e5cf346b5a.json",
+    "title": "What is collagen banking and how does it work?\n | INGENIOUS"
+  },
+  "/blogs/blog/when-start-collagen-supplement": {
+    "file": "43839551e5c4.json",
+    "title": "When Should I Start Taking a Collagen Supplement?\n | INGENIOUS"
+  },
+  "/blogs/blog/why-protected-collagen-is-more-effective": {
+    "file": "ba96a959bb95.json",
+    "title": "Why protected collagen is 15x more effective\n | INGENIOUS"
+  },
+  "/blogs/blog/winter-wellness-hydration": {
+    "file": "e5436a159caf.json",
+    "title": "Winter Wellness: Hydration\n | INGENIOUS"
+  },
+  "/blogs/blog/world-arthritis-day-the-power-of-collagen-in-joint-care": {
+    "file": "df59634fd083.json",
+    "title": "Collagen for Joint Health on World Arthritis Day\n | INGENIOUS"
+  },
+  "/blogs/blog?page=1": {
+    "file": "2419b6eef7ce.json",
+    "title": "Blog\n | INGENIOUS"
+  },
+  "/pages/data-sharing-opt-out": {
+    "file": "8701436243d3.json",
+    "title": "Your Privacy Choices\n | INGENIOUS"
+  },
+  "/pages/ingredients/actigin": {
+    "file": "d83cf172940a.json",
+    "title": "Actigin | Our Ingredients\n | INGENIOUS"
+  },
+  "/pages/ingredients/hyaluronic-acid": {
+    "file": "1f9daa2c446e.json",
+    "title": "Hyaluronic Acid | Our Ingredients\n | INGENIOUS"
+  },
+  "/pages/ingredients/ingenious-capsules": {
+    "file": "835161deaa14.json",
+    "title": "Capsules | Our Ingredients\n | INGENIOUS"
+  },
+  "/pages/ingredients/marine-collagen": {
+    "file": "1ea89aa171e5.json",
+    "title": "Marine Collagen Explained: Benefits & Absorption\n | INGENIOUS"
+  },
+  "/pages/ingredients/natural-astaxanthin": {
+    "file": "cb3f4e28a2d4.json",
+    "title": "Natural Astaxanthin | Our Ingredients\n | INGENIOUS"
+  },
+  "/pages/ingredients/vitamin-c": {
+    "file": "1179fbb9bbc4.json",
+    "title": "Vitamin C | Our Ingredients\n | INGENIOUS"
+  },
+  "/pages/ingredients/vitamin-e": {
+    "file": "d8f5f8a2a8b0.json",
+    "title": "Vitamin E | Our Ingredients\n | INGENIOUS"
+  },
+  "/pages/ingredients/zinc": {
+    "file": "db44e0496d04.json",
+    "title": "Zinc | Our Ingredients\n | INGENIOUS"
+  },
+  "/pages/wellness": {
+    "file": "a0d404893883.json",
+    "title": "Sustainable Supplements & Ethical Sourcing | Ingenious"
+  }
+}

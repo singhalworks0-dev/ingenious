@@ -1,0 +1,7 @@
+.about_object_meet_founder_main_new .Common_medium_title_new.Index_object_meet_founder_innersides_innertitle_new * {max-width: 100%;}
+.about_object_meet_founder_main_new{margin-bottom: 70px;}
+.about_object_meet_founder_main_new .readmore,.about_object_meet_founder_main_new .readless{font-size: 14px;font-style: normal;font-weight: 400;line-height: 114.286%;text-transform: uppercase;color:#FFF7F0;margin-top: 24px;text-decoration: underline;display:block;text-underline-offset: 3px;font-family:var(--font-ShareTechMono);}
+@media(max-width:749px){
+  .about_object_meet_founder_main_new { margin-bottom: 56px;}
+  .about_object_meet_founder_main_new .Index_object_meet_founder_innerloops_innerboxs_maindetail_new{padding:46px;}
+}

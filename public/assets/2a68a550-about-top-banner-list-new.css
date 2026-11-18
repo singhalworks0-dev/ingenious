@@ -1,0 +1,5 @@
+.about-top-banner-list-new.Index_top_banner_list_left_detail_show_new .Index_top_banner_list_block_inneroverlay_new{-webkit-backdrop-filter: blur(12px);backdrop-filter: blur(12px);border-right: 1px solid #FFF7F0;}
+@media(max-width:749px){
+.about-top-banner-list-new .Index_top_banner_list_block_inneroverlay_innerboths_innerinfos_new p{max-width: 236px;}
+.about-top-banner-list-new.Index_top_banner_list_left_detail_show_new .Index_top_banner_list_block_inneroverlay_new{margin-top: 293px;}
+}
