@@ -78,3 +78,13 @@ body{opacity:1!important} #root{width:100%} .replica-announcement{font-family:va
  .replica-menu-rewards span{font-size:12px}
 }
 .replica-menu-rewards>div{backdrop-filter:blur(12px);background:#18171726}
+
+/* Preserve the reference's outlined SVG chevrons over Swiper's icon defaults. */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #181717;
+}
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  fill: none;
+}
